@@ -1,6 +1,6 @@
 package com.company;
 
-public class Bike {
+public class Bike implements BikeParts {
 
 	private String handleBars, frame, tyres, seatType;
 	private int NumGears;

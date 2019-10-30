@@ -1,6 +1,6 @@
 package com.company;
 
-public class MountainBike extends Bike{
+public class MountainBike extends Bike implements MountainParts{
 
 	private String suspension, type;
 	private int frameSize;

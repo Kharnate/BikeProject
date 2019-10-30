@@ -1,6 +1,6 @@
 package com.company;
 
-public class RoadBike extends Bike{
+public class RoadBike extends Bike implements RoadParts{
 	
 	private int  tyreWidth, postHeight;
 	
